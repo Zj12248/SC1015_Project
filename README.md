@@ -58,11 +58,11 @@ master.csv
 - Suicide Rates from 1985-2021 dataset
 
 ## References
-https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
-https://towardsdatascience.com/xgboost-theory-and-practice-fb8912930ad6
-https://medium.com/@gabrieltseng/gradient-boosting-and-xgboost-c306c1bcfaf5
-https://towardsdatascience.com/beginners-guide-to-xgboost-for-classification-problems-50f75aac5390
-https://towardsdatascience.com/understanding-random-forest-58381e0602d2
-https://machinelearningmastery.com/implement-random-forest-scratch-python/
-https://towardsdatascience.com/everything-you-need-to-know-about-min-max-normalization-in-python-b79592732b79
-https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb
+- https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
+- https://towardsdatascience.com/xgboost-theory-and-practice-fb8912930ad6
+- https://medium.com/@gabrieltseng/gradient-boosting-and-xgboost-c306c1bcfaf5
+- https://towardsdatascience.com/beginners-guide-to-xgboost-for-classification-problems-50f75aac5390
+- https://towardsdatascience.com/understanding-random-forest-58381e0602d2
+- https://machinelearningmastery.com/implement-random-forest-scratch-python/
+- https://towardsdatascience.com/everything-you-need-to-know-about-min-max-normalization-in-python-b79592732b79
+- https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb
