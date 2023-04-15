@@ -1,7 +1,7 @@
 # SC1015_Project Suicide Prediction
 
 ## About
-Our project aims to explore key indicators of suicide and developing models that can help identify and predict those at risk of suicide.
+Our project aims to explore key indicators of suicide and develop models that can help identify and predict those at risk of suicide.
 
 Package requirements for running notebook
 - geopandas
