@@ -37,7 +37,6 @@ Datasets from
 - geopandas , graphviz
 
 ## File Descriptions
------------------
 
 SC1015_Project_SuicideRisk.ipynb
 - A Jupyter Notebook containing the main source code for the project.
