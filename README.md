@@ -3,7 +3,7 @@
 ## About
 Our project aims to explore key indicators of suicide and developing models that can help identify and predict those at risk of suicide.
 
-Requirements for running notebook
+Package requirements for running notebook
 - geopandas
 - graphviz
 
