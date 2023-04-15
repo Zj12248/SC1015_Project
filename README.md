@@ -29,6 +29,7 @@ Datasets from
 - approximately 93% accuracy, with 95% True Positive Rate, thus is a good predictor of suicide risk
 - GDP per capita have extremely weak linear correlation values with suicide rates(contrary to instinctual belief), however random forest model does list it as the most important feature
 - We have to focus on helping Europeans, Males, and older people as they are of highest suicide risk.
+- Hyperparmeters matters - XGBoost is a highly regarded algorithm, should not have performed worse than random forest if hyperparmeter tuning was performed.
 
 ## What did we learn from this project
 - one hot encoding, min-max scaling
@@ -39,7 +40,7 @@ Datasets from
 ## File Descriptions
 
 SC1015_Project_SuicideRisk.ipynb
-- A Jupyter Notebook containing the main source code for the project.
+- A Jupyter Notebook containing the source code for the project.
 
 SC1015 Presentation.pptx
 - Presentation Slides
@@ -54,7 +55,7 @@ continents2.csv
 - Country mapping Dataset
 
 master.csv
-- Suicide Rates from 1985-2021 dataset
+- Suicide Rates from 1985-2021 Dataset
 
 ## References
 - https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
