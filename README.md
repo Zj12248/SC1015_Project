@@ -13,22 +13,30 @@ Dataset from
 Repository Contents
 -------------------
 
-
+SC1015_Project_SuicideRisk.ipynb
+SC1015 Presentation.pptx
+README.txt
+SC1015_Transcript.pdf
+continents2.csv
+master.csv
 
 File Descriptions
 -----------------
 
-covid.ipynb
+SC1015_Project_SuicideRisk.ipynb
     A Jupyter Notebook containing the main source code for the project.
 
-
+SC1015 Presentation.pptx
+    Presentation Slides
+    
 README.txt (this file)
     Basic information about the project repository.
 
-Presentation.pdf
-    A PDF copy of the presentation slides (video presentation not available in 
-    this repository).
+SC1015_Transcript.pdf
+    A PDF copy of the transcript for the video presentation 
+    
+continents2.csv
+    Country mapping Dataset
 
-Transcript.pdf
-    A PDF copy of the transcript for the video presentation (video 
-    presentation not available in this repository).
+master.csv
+    Suicide Rates from 1985-2021 dataset
