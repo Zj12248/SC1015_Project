@@ -11,6 +11,10 @@ Datasets from
 - https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021 (Suicide Data)
 - https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region (Country-region Mapping)
 
+## Contributions
+- Zj12248 - Data extraction, Data Preprocessing, Data visualisation, Random Forest, XGBoost
+- Vithun - Classification Tree, Presentation Structure, Problem Ideation
+
 ## Problem Definintion
 - Are we able to predict if a person is of high or low suicide risk?
 - Which model would be the best to predict it?
@@ -52,3 +56,13 @@ continents2.csv
 
 master.csv
 - Suicide Rates from 1985-2021 dataset
+
+## References
+https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
+https://towardsdatascience.com/xgboost-theory-and-practice-fb8912930ad6
+https://medium.com/@gabrieltseng/gradient-boosting-and-xgboost-c306c1bcfaf5
+https://towardsdatascience.com/beginners-guide-to-xgboost-for-classification-problems-50f75aac5390
+https://towardsdatascience.com/understanding-random-forest-58381e0602d2
+https://machinelearningmastery.com/implement-random-forest-scratch-python/
+https://towardsdatascience.com/everything-you-need-to-know-about-min-max-normalization-in-python-b79592732b79
+https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb
