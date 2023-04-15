@@ -14,10 +14,15 @@ Repository Contents
 -------------------
 
 SC1015_Project_SuicideRisk.ipynb
+
 SC1015 Presentation.pptx
+
 README.txt
+
 SC1015_Transcript.pdf
+
 continents2.csv
+
 master.csv
 
 File Descriptions
