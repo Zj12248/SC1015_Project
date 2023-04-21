@@ -22,6 +22,7 @@ master.csv
 
 ## About
 Our project aims to explore key indicators of suicide and develop models that can help identify and predict those at risk of suicide.
+This Readme serves as a overview of the project, more details can be found in presentation and notebook.
 
 Package requirements for running notebook
 - geopandas
