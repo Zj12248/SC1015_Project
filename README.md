@@ -1,42 +1,5 @@
 # SC1015_Project Suicide Prediction
 
-## About
-Our project aims to explore key indicators of suicide and develop models that can help identify and predict those at risk of suicide.
-
-Package requirements for running notebook
-- geopandas
-- graphviz
-
-Datasets from 
-- https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021 (Suicide Data)
-- https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region (Country-region Mapping)
-
-## Contributions
-- Zj12248 - Data extraction, Data Preprocessing, Data visualisation, Random Forest, XGBoost
-- Vithun - Classification Tree, Presentation Structure, Problem Ideation
-
-## Problem Definintion
-- Are we able to predict if a person is of high or low suicide risk?
-- Which model would be the best to predict it?
-
-## Models Used
-1. Decision Tree
-2. Random Forest
-3. XGBoost
-
-## Conclusion
-- Random Forest is the optimal model among the 3 to predict suicide risk
-- approximately 93% accuracy, with 95% True Positive Rate, thus is a good predictor of suicide risk
-- GDP per capita have extremely weak linear correlation values with suicide rates(contrary to instinctual belief), however random forest model does list it as the most important feature
-- We have to focus on helping Europeans, Males, and older people as they are of highest suicide risk.
-- Hyperparmeters matters - XGBoost is a highly regarded algorithm, should not have performed worse than random forest if hyperparmeter tuning was performed.
-
-## What did we learn from this project
-- one hot encoding, min-max scaling
-- importance features
-- Random Forest, XGBoost - machine learning models
-- geopandas , graphviz
-
 ## File Descriptions
 
 SC1015_Project_SuicideRisk.ipynb
@@ -56,6 +19,67 @@ continents2.csv
 
 master.csv
 - Suicide Rates from 1985-2021 Dataset
+
+## About
+Our project aims to explore key indicators of suicide and develop models that can help identify and predict those at risk of suicide.
+
+Package requirements for running notebook
+- geopandas
+- graphviz
+
+Contributions
+- Zj12248 - Data extraction, Data Preprocessing, Data visualisation, Random Forest, XGBoost
+- Vithun - Classification Tree, Presentation Structure, Problem Ideation
+
+## Introduction
+
+Datasets from 
+- https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021 (Suicide Data)
+- https://www.kaggle.com/datasets/andradaolteanu/country-mapping-iso-continent-region (Country-region Mapping)
+
+Problem Definintion
+- Are we able to predict if a person is of high or low suicide risk?
+- Which model would be the best to predict it?
+
+## Data Preprocessing
+- Exploratory Data analysis performed on numeric and categorical varables against suicide/100k
+- Data cleaning(), normalisation(MinMaxScaler), transformation performed
+
+## Methodology
+
+Models Used
+1. Decision Tree
+2. Random Forest
+3. XGBoost
+
+Train-Test Split - train model using Train data, backtest against Test data.
+
+## Experiments
+
+Baseline: Decision Tree
+Details in presentation.
+
+Performance Measurement through classfication accuracy - score() function, True Positive Rate and False Positve Rate
+
+## Conclusion
+
+- Random Forest is the optimal model among the 3 to predict suicide risk - approximately 93% accuracy, with 95% True Positive Rate, 9$False Postive Rate,  thus is a good predictor of suicide risk. 
+- NOTE: Lower False positive is better to minimize the waste of resources, but it is NOT more important than a person of suicidal risk missing out on aid(TPR), thus rule out XGBoost for this problem.
+
+- GDP per capita have extremely weak linear correlation values with suicide rates(contrary to instinctual belief), however random forest model does list it as the most important feature
+- Europeans, Males, and older people are characteristics of those of the highest suicide risk.
+
+Possible Improvements
+- Hyperparmeters matters - XGBoost should not have performed worse than random forest if hyperparmeter tuning was performed as XGBoost has been proven to be better than RF.
+- Perform Data Augmentation(Oversampling/Undersampling) to balance imbalanced target data(suicide_risk)
+
+
+## What did we learn from this project
+- one hot encoding, min-max scaling
+- importance features
+- Random Forest, XGBoost - machine learning models
+- geopandas , graphviz
+
 
 ## References
 - https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
