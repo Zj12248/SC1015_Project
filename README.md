@@ -60,7 +60,7 @@ Train-Test Split - train model using Train data, backtest against Test data.
 Baseline: Decision Tree<br>
 Details in presentation.
 
-Performance Measurement through classfication accuracy - score() function, True Positive Rate and False Positve Rate
+Performance Measurement through classfication accuracy - score() function, True Positive Rate and False Positive Rate
 
 ## Conclusion
 
