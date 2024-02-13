@@ -64,7 +64,7 @@ Performance Measurement through classfication accuracy - score() function, True 
 
 ## Conclusion
 
-- Random Forest is the optimal model among the 3 to predict suicide risk - approximately 93% accuracy, with 95% True Positive Rate, 9$False Postive Rate,  thus is a good predictor of suicide risk. 
+- Random Forest is the optimal model among the 3 to predict suicide risk - approximately 93% accuracy, with 95% True Positive Rate, 9%False Postive Rate,  thus is a good predictor of suicide risk. 
 - NOTE: Lower False positive is better to minimize the waste of resources, but it is NOT more important than a person of suicidal risk missing out on aid(TPR), thus rule out XGBoost for this problem.
 
 - GDP per capita have extremely weak linear correlation values with suicide rates(contrary to instinctual belief), however random forest model does list it as the most important feature
